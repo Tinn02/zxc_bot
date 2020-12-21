@@ -2,7 +2,6 @@ import discord
 from discord.ext import commands
 import json
 import requests
-import config
 
 bot = commands.Bot(command_prefix='!')
 
@@ -147,4 +146,4 @@ async def on_member_remove(member):
     channel = bot.get_channel(340360564696154114)
     await channel.send(f"{member} покинул нас =(")
 
-bot.run(config.TOKEN) # токен берётся из файла config.py для безопасности
+bot.run(TOKEN) # токен берётся из файла config.py для безопасности
