@@ -62,7 +62,6 @@ six==1.15.0
 terminado==0.9.1
 testpath==0.4.4
 toml==0.10.2
-tornado==6.1
 traitlets==5.0.5
 urllib3==1.26.1
 virtualenv==20.1.0
