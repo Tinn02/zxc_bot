@@ -22,7 +22,6 @@ entrypoints==0.3
 filelock==3.0.12
 idna==2.10
 ipykernel==5.3.4
-ipython==7.19.0
 ipython-genutils==0.2.0
 isort==5.6.4
 jedi==0.17.2
