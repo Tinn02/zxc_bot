@@ -147,4 +147,4 @@ async def on_member_remove(member):
     channel = bot.get_channel(340360564696154114)
     await channel.send(f"{member} покинул нас =(")
 
-bot.run(config.TOKEN)
+bot.run(config.TOKEN) # токен берётся из файла config.py для безопасности
