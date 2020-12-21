@@ -3,7 +3,6 @@ from discord.ext import commands
 import json
 import requests
 
-TOKEN = 'Nzg1ODQ3NDMwMzE3ODY3MDA4.X89zcw.Qwn2hLJtzhxFBIph8b4FDBdBHF8'
 bot = commands.Bot(command_prefix='!')
 
 @bot.event # запуск бота
