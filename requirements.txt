@@ -17,7 +17,6 @@ defusedxml==0.6.0
 discord==1.0.1
 discord.py==1.5.1
 distlib==0.3.1
-dpymenus==1.2.3
 emoji==0.6.0
 entrypoints==0.3
 filelock==3.0.12
