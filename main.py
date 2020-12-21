@@ -2,8 +2,8 @@ import discord
 from discord.ext import commands
 import json
 import requests
-import os
 
+TOKEN = 'Nzg1ODQ3NDMwMzE3ODY3MDA4.X89zcw.Qwn2hLJtzhxFBIph8b4FDBdBHF8'
 bot = commands.Bot(command_prefix='!')
 
 @bot.event # запуск бота
@@ -147,6 +147,4 @@ async def on_member_remove(member):
     channel = bot.get_channel(340360564696154114)
     await channel.send(f"{member} покинул нас =(")
 
-token = os.environ.get(TOKEN)
-bot.run(str(token))
-#bot.run(TOKEN) # токен берётся из файла config.py для безопасности
+bot.run(TOKEN) # токен берётся из файла config.py для безопасности
