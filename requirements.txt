@@ -58,7 +58,6 @@ prompt-toolkit==3.0.8
 pycparser==2.20
 Pygments==2.7.2
 pylint==2.6.0
-pyparsing==2.4.7
 pywin32==228
 pywinpty==0.5.7
 pyzmq==19.0.2
