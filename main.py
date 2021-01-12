@@ -87,14 +87,13 @@ async def кот(ctx):
 @bot.command() # 2018-1
 async def расп18_1(ctx):
     embed = discord.Embed(title="Расписание группы ИН-К-0-Д-2018-1", color=0x0f52ba)
-    embed.set_image(url="https://media.discordapp.net/attachments/698478059078156319/790291983594946590/4M6uFIsha5k.png?width=629&height=703")
+    embed.set_image(url="https://media.discordapp.net/attachments/698478059078156319/798495258505773056/htFlQtfz_Lc.jpg")
+    embed.set_image(url="https://media.discordapp.net/attachments/698478059078156319/798495258962427944/RaBCkMVQk_0.jpg")
     await ctx.send(embed=embed)
 
 @bot.command() # 2018-2
 async def расп18_2(ctx):
-    embed = discord.Embed(title="Расписание группы ИН-К-0-Д-2018-2", color=0x0f52ba)
-    embed.set_image(url="https://media.discordapp.net/attachments/698478059078156319/790253695513133056/raspisanie.png?width=1303&height=678")
-    await ctx.send(embed=embed)
+    await ctx.send("F :candle:")
 
     
 @bot.command() # 2020-2-11
