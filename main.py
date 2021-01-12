@@ -88,12 +88,12 @@ async def кот(ctx):
 async def расп18_1(ctx):
     embed = discord.Embed(title="Расписание группы ИН-К-0-Д-2018-1", color=0x0f52ba)
     embed.set_image(url="https://media.discordapp.net/attachments/698478059078156319/798495258505773056/htFlQtfz_Lc.jpg")
-    embed.set_image(url="https://media.discordapp.net/attachments/698478059078156319/798495258962427944/RaBCkMVQk_0.jpg")
+    embed.set_thumbnail(url="https://media.discordapp.net/attachments/698478059078156319/798495258962427944/RaBCkMVQk_0.jpg")
     await ctx.send(embed=embed)
 
 @bot.command() # 2018-2
 async def расп18_2(ctx):
-    await ctx.send("F :candle:")
+    await ctx.send(":candle:")
 
     
 @bot.command() # 2020-2-11
